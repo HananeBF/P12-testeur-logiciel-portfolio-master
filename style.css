@@ -19,8 +19,12 @@
 
 /* display background dark color on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: #5b5b5b;
+    background-color: #0c0c0c9c;
 }
+.nav-item {
+    color: #fff;
+}
+
 
 /* hero background image */
 .bgimage {
@@ -29,10 +33,13 @@
     background: url("images/image1.jpg");
     background-size: cover;
     position: relative;
+  
 }
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
+    color: #fff;
+  
 }
 .hero_desc {
     font-size: 2rem;
@@ -48,12 +55,14 @@
 
 /* about */
 .imageAboutPage {
-    width: 100%;
+    max-width: 100%;
+    margin: auto;
 }
 .imageAboutPage {
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
+
 
 /* skills */
 .skillsText.card {
@@ -96,6 +105,10 @@
 }
 .contactColumn i {
     color: #198754;
+}
+
+.mask {
+    visibility: inherit;
 }
 
 /* footer */
