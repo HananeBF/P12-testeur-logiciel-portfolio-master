@@ -1,6 +1,6 @@
 # P12-testeur-logiciel-portfolio
 
-<h1>Portfolio de Hanane Benjeddir Frérot</h1>
+<h2>Portfolio de Hanane Benjeddir Frérot</h1>
 
 
 
@@ -18,16 +18,17 @@
   <br><br><br>
 </p>
 
-<h2>>A propos</h2>
+<h3>A propos</h3>
 Ce projet a été développé dans le cadre de la formation Testeur Logiciel d'OpenClassroom.
 
 Le site a été mis en ligne en avril 2025.
 
 Technologies utilisées : HTML/CSS et JS
 
-**Ouverture du projet 
-Utilisez un IDE pour ouvrir le projet de type VS Code
-Lancer le site en live
-ou rendez-vous sur [le site en ligne](https://hanane-b-frerot.fr/)
-
+<h3>Ouverture du projet</h3>
+<ul>
+<li>Utilisez un IDE pour ouvrir le projet de type VS Code</li>
+<li>Lancer le site en live</li>
+<li>ou rendez-vous sur [le site en ligne](https://hanane-b-frerot.fr/)</li>
+</ul>
 
