@@ -1,6 +1,6 @@
 # P12-testeur-logiciel-portfolio
 
-*Portfolio de Hanane Benjeddir Frérot
+<h1>Portfolio de Hanane Benjeddir Frérot</h1>
 
 
 
@@ -18,7 +18,7 @@
   <br><br><br>
 </p>
 
-**A propos
+<h2>>A propos</h2>
 Ce projet a été développé dans le cadre de la formation Testeur Logiciel d'OpenClassroom.
 
 Le site a été mis en ligne en avril 2025.
