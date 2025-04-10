@@ -1,30 +1,30 @@
 [
     {
-        "image": "image1.png",
+        "image": "Booki.png",
         "title": "Booki",
         "text": "Réalisation en HTML/CSS d'une application de voyage responsive (via media queries), validation W3C",
         "link": "/index-booki.html"
     },
     {
-        "image": "image2.png",
+        "image": "sophie_bluel.jpg",
         "title": "Sophie Bluel Architecte",
         "text": "Développement JS d'une application avec connexion au BO pour la gestion des projets, chaînage API",
         "link": "https://github.com/HananeBF/OC-student-project"
     },
     {
-        "image": "image3.png",
+        "image": "Kasa.png",
         "title": "Kasa",
         "text": "Création d'une application de location immobilière en React.js avec gestion de components réutilisables et accessibles",
         "link": "https://github.com/HananeBF/p08_kasa_agence_immobiliere_student_OC"
     },
     {
-        "image": "image4.png",
+        "image": "print-it.jpg",
         "title": "Print-It",
         "text": "Modification d'un site vitrine existant avec du script JS pour la gestion d'un carroussel dynamique",
         "link": "https://github.com/HananeBF/Printit-JS-P06-Hanane-Benjeddir"
     },
     {
-        "image": "image5.png",
+        "image": "riding_cities.jpg",
         "title": "Riding Cities",
         "text": "Intégration (HTML/CSS) du site Riding Cities avec comme base la maquette Figma",
         "link": "/projet-riding-cities.html"
