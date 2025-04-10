@@ -2,19 +2,39 @@
     {
         "image": "image1.png",
         "title": "Booki",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "text": "Réalisation en HTML/CSS d'une application de voyage responsive (via media queries), validation W3C",
+        "link": "/index-booki.html"
     },
     {
         "image": "image2.png",
-        "title": "Sophie Bluel",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "title": "Sophie Bluel Architecte",
+        "text": "Développement JS d'une application avec connexion au BO pour la gestion des projets, chaînage API",
+        "link": "https://github.com/HananeBF/OC-student-project"
     },
     {
         "image": "image3.png",
         "title": "Kasa",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "text": "Création d'une application de location immobilière en React.js avec gestion de components réutilisables et accessibles",
+        "link": "https://github.com/HananeBF/p08_kasa_agence_immobiliere_student_OC"
+    },
+    {
+        "image": "image4.png",
+        "title": "Print-It",
+        "text": "Modification d'un site vitrine existant avec du script JS pour la gestion d'un carroussel dynamique",
+        "link": "https://github.com/HananeBF/Printit-JS-P06-Hanane-Benjeddir"
+    },
+    {
+        "image": "image5.png",
+        "title": "Riding Cities",
+        "text": "Intégration (HTML/CSS) du site Riding Cities avec comme base la maquette Figma",
+        "link": "/projet-riding-cities.html"
+    },
+    {
+        "image": "eco_bliss-bath.png",
+        "title": "EcoBliss Bath",
+        "text": "Mise en place de tests automatisés, script JS via Cypress pour une boutique en ligne (Angular.js)",
+        "link": "https://github.com/HananeBF/p10_TesteurLogiciel_Automatisez_des_tests_pour_une_boutique_en_ligne"
     }
+
+    
 ]

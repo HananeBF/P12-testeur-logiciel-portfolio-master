@@ -19,18 +19,19 @@
 
 /* display background dark color on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: #0c0c0c9c;
+    background-color: #000000;
 }
 .nav-item {
     color: #fff;
+    opacity:1;
 }
-
 
 /* hero background image */
 .bgimage {
     height: 100vh;
     max-height: 900px;
     background: url("images/image1.jpg");
+    background-color: black;
     background-size: cover;
     position: relative;
   
@@ -55,13 +56,12 @@
 
 /* about */
 .imageAboutPage {
-    max-width: 100%;
+    max-width: 50%;
     margin: auto;
-}
-.imageAboutPage {
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
+
 
 
 /* skills */
@@ -105,6 +105,16 @@
 }
 .contactColumn i {
     color: #198754;
+}
+.hero_linkedin {
+    color: black;
+}
+.hero_linkedin a {
+    color: black;
+    text-decoration: none;
+}
+.hero_linkedin i {
+    color: black
 }
 
 .mask {
