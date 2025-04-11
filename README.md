@@ -29,6 +29,5 @@ Technologies utilisées : HTML/CSS et JS
 <ul>
 <li>Utilisez un IDE pour ouvrir le projet de type VS Code</li>
 <li>Lancer le site en live</li>
-<li>ou rendez-vous sur <a href="https://hanane-b-frerot.fr/">le site en ligne</a>></li>
+<li>ou rendez-vous sur <a href="https://hanane-b-frerot.fr/">le site en ligne</a></li>
 </ul>
-

@@ -18,112 +18,55 @@
 }
 
 /* display background dark color on navbar scroll */
-/* Dark links against a light background */
-.navbar-light {
-  .navbar-brand {
+.navbarScroll.navbarDark {
+    background-color: #000000;
+    color: rgb(255, 255, 255, 1);
+}
+/* // Kickstart any navigation component with a set of style resets. Works with
+// `<nav>`s, `<ul>`s or `<ol>`s. */
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left:0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.nav-linker {
+  display: block;
+  padding: 0.5rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+
+  &:hover,
+  &:focus {
     color: white;
-
-    &:hover,
-    &:focus {
-      color: white;
-    }
+    text-decoration: none;
   }
 
-  .navbar-nav {
-    .nav-link {
-      color: white;
-
-      &:hover,
-      &:focus {
-        color:white;
-      }
-
-      &.disabled {
-        color: white;
-      }
-    }
-
-    .show > .nav-link,
-    .nav-link.active {
-      color: white;
-      font-weight: 800;
-    }
-  }
-
-  .navbar-toggler {
+  /* // Disabled state lightens text */
+  &.disabled {
     color: white;
-    border-color: white;
-  }
-
-  .navbar-toggler-icon {
-    background-image: escape-svg(white);
-  }
-
-  .navbar-text {
-    color: white;
-
-    a,
-    a:hover,
-    a:focus  {
-      color: white;
-    }
+    pointer-events: none;
+    cursor: default;
   }
 }
 
-// White links against a dark background
-.navbar-dark {
-  .navbar-brand {
-    color: white;
 
-    &:hover,
-    &:focus {
-      color: white;
-      font-weight: 700;
-    }
-  }
 
-  .navbar-nav {
-    .nav-link {
-      color: white;
-
-      &:hover,
-      &:focus {
-        color: color: white;
-        font-weight: 700;
-      }
-
-      &.disabled {
-        color: white;
-      }
-    }
-
-    .show > .nav-link,
-    .nav-link.active {
-      color: white;
-      font-weight: 800;
-    }
-  }
-
-  .navbar-toggler {
-    color: white;
-    border-color: $navbar-dark-toggler-border-color;
-  }
-
-  .navbar-toggler-icon {
-    background-image: escape-svg(white);
-  }
-
-  .navbar-text {
-    color: white;
-    a,
-    a:hover,
-    a:focus {
-      color: white;
-      font-weight: 800;
-    }
-  }
+#navbarSupportedContent {
+    color: rgb(255, 255, 255, 1);
+    opacity:1;
+    text-decoration: none;
 }
 
+.navbar_news {
+    color: rgb(255, 255, 255, 1);;
+}
 
 /* hero background image */
 .bgimage {
@@ -143,7 +86,6 @@
 }
 .hero_desc {
     font-size: 2rem;
-    color: #fff;
 }
 .hero-text {
     text-align: center;
@@ -195,25 +137,6 @@
 /* portfolio */
 #portfolio p {
     text-align: center;
-}
-
-.card-body {
-    
-    display:flex;
-    flex-direction:column;
-    width: 100%;
-    height: 215px;
-    box-sizing: border-box;
-    
-}
-
-.card-body.card-text {
-    margin-bottom: 5px; 
-}
-
-.text-center {
-    padding-top:1rem;
-    padding-bottom: 1rem;
 }
 
 /* contact */
