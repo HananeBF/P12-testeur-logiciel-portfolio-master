@@ -20,15 +20,52 @@
 /* display background dark color on navbar scroll */
 .navbarScroll.navbarDark {
     background-color: #000000;
+    color: rgb(255, 255, 255, 1);
 }
-.nav-item {
-    color: #fff;
-    opacity:1;
+/* // Kickstart any navigation component with a set of style resets. Works with
+// `<nav>`s, `<ul>`s or `<ol>`s. */
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left:0;
+  margin-bottom: 0;
+  list-style: none;
 }
 
-.nav-link {
-    color:white;
-    opacity: 1;
+.nav-linker {
+  display: block;
+  padding: 0.5rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+
+  &:hover,
+  &:focus {
+    color: white;
+    text-decoration: none;
+  }
+
+  /* // Disabled state lightens text */
+  &.disabled {
+    color: white;
+    pointer-events: none;
+    cursor: default;
+  }
+}
+
+
+
+#navbarSupportedContent {
+    color: rgb(255, 255, 255, 1);
+    opacity:1;
+    text-decoration: none;
+}
+
+.navbar_news {
+    color: rgb(255, 255, 255, 1);;
 }
 
 /* hero background image */
@@ -49,7 +86,6 @@
 }
 .hero_desc {
     font-size: 2rem;
-    color: #fff;
 }
 .hero-text {
     text-align: center;
@@ -101,25 +137,6 @@
 /* portfolio */
 #portfolio p {
     text-align: center;
-}
-
-.card-body {
-    
-    display:flex;
-    flex-direction:column;
-    width: 100%;
-    height: 215px;
-    box-sizing: border-box;
-    
-}
-
-.card-body.card-text {
-    margin-bottom: 5px; 
-}
-
-.text-center {
-    padding-top:1rem;
-    padding-bottom: 1rem;
 }
 
 /* contact */
